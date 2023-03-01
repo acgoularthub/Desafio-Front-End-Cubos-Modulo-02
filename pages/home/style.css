@@ -1,0 +1,165 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upper-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 95vw;
+}
+
+.top-background {
+  background: url(../../assets/home/image-homepage-hero.jpg) no-repeat center
+    center;
+  background-size: cover;
+  height: 83.5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.top-background p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 34vw;
+  height: 50vh;
+
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+
+  background-color: #f3f3f3;
+  color: #33323d;
+}
+
+.text {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 5rem;
+  background-color: #f3f3f3;
+}
+
+.top-background p button {
+  font-size: 1rem;
+
+  background-color: #051a15;
+  color: #fafafa;
+  border: none;
+}
+
+.top-background p button a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #203a4c;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top-background p button a span {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #203a4c;
+}
+
+.top-background p button a img {
+  padding: 1rem;
+  background-color: #152733;
+}
+
+.top-background p button a:hover span,
+.top-background p button a:hover {
+  background-color: #5fb4a2;
+}
+
+.top-background p button a:hover img {
+  background-color: #427c70;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about img {
+  align-self: initial;
+
+  width: 50vw;
+  height: 100vh;
+}
+
+#about article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 90vh;
+  max-width: 50vw;
+  max-height: 100vh;
+  margin-left: 15vw;
+  margin-right: 1vw;
+
+  font-size: 18px;
+  line-height: 35px;
+
+  color: #33323d;
+}
+
+#about article hr {
+  color: #33323d;
+  width: 90%;
+}
+
+#about article p {
+  padding-top: 50px;
+  font-size: 0.8em;
+}
+
+#about article button {
+  min-width: 204px;
+  min-height: 48px;
+
+  border: 1px solid black;
+  background-color: #fafafa;
+}
+
+#about article button a {
+  background-color: #fafafa;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #33323d;
+}
+
+#about article button:hover {
+  cursor: pointer;
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+#about article button:hover a {
+  cursor: pointer;
+  background-color: #33323d;
+  color: #fafafa;
+}
+
+#about article hr {
+  color: #33323d;
+  width: 90%;
+}
